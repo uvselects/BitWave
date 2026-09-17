@@ -1,6 +1,6 @@
-# SignalLab: Digital Communication Simulator
+# BitWave: Digital Communication Simulator
 
-SignalLab is a console-based Java project that I made to understand how data is transmitted in a digital communication system.
+BitWave is a console-based Java project that I made to understand how data is transmitted in a digital communication system.
 
 The basic idea is to take a signal, sample it, convert it into bits, send those bits through a noisy channel, and then check whether the original data can be recovered at the receiving end. Through this project, I wanted to connect some ECE concepts like signal sampling, the Nyquist theorem, and error correction with Java concepts like OOP, custom exceptions, and file handling.
 
@@ -58,13 +58,13 @@ So, in simple words, this project shows how data can get changed while travellin
 
 ```text
 
-SignalLab/
+BitWave/
 
 ├── src/
 
 │ └── com/
 
-│ └── signallab/
+│ └── BitWave/
 
 │ ├── Main.java
 
@@ -104,7 +104,7 @@ SignalLab/
 
 ```bash
 
-cd C:\SignalLab
+cd C:\BitWave
 
 ```
 
@@ -112,7 +112,7 @@ cd C:\SignalLab
 
 ```bash
 
-javac -sourcepath src -d bin src/com/signallab/Main.java
+javac -sourcepath src -d bin src/com/BitWave/Main.java
 
 ```
 
@@ -120,7 +120,7 @@ javac -sourcepath src -d bin src/com/signallab/Main.java
 
 ```bash
 
-java -cp bin com.signallab.Main
+java -cp bin com.BitWave.Main
 
 ```
 
@@ -196,7 +196,7 @@ The exception should be handled properly instead of crashing the program.
 
 ```text
 
-SignalLab: Digital Communication Simulator
+BitWave: Digital Communication Simulator
 
 Waveform: SINE
 
