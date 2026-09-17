@@ -1,4 +1,4 @@
-# Project Statement: SignalLab
+# Project Statement: BitWave
 
 ## Problem Statement
 
@@ -6,11 +6,11 @@ When data moves from one place to another the signal can be disturbed by noise. 
 
 In communication systems error-correction techniques are used to find and fix these mistakes.. Testing these methods on actual hardware usually takes a lot of time and can also cost a lot of money.
 
-To solve this I built SignalLab as a software simulation. It lets me create a signal send it through a channel and see what happens to the data. It also shows how Hamming code helps in detecting and fixing errors.
+To solve this I built BitWave as a software simulation. It lets me create a signal send it through a channel and see what happens to the data. It also shows how Hamming code helps in detecting and fixing errors.
 
 ## Scope
 
-SignalLab is a console-based Java application that follows the basic flow of a communication system:
+BitWave is a console-based Java application that follows the basic flow of a communication system:
 
 **Sender → Noisy Channel → Receiver**
 
