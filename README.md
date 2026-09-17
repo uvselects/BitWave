@@ -104,7 +104,7 @@ BitWave/
 
 ```bash
 
-cd C:\BitWave
+cd C:\SignalLab
 
 ```
 
@@ -112,7 +112,7 @@ cd C:\BitWave
 
 ```bash
 
-javac -sourcepath src -d bin src/com/BitWave/Main.java
+javac -sourcepath src -d bin src/com/signallab/Main.java
 
 ```
 
@@ -120,7 +120,7 @@ javac -sourcepath src -d bin src/com/BitWave/Main.java
 
 ```bash
 
-java -cp bin com.BitWave.Main
+java -cp bin com.signallab.Main
 
 ```
 
